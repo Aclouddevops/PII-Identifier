@@ -4,10 +4,11 @@ This Python script uses the Streamlit library to create a web application that i
 
 ## Libraries Used
 
-streamlit: This library is used to create the web application.
-pandas: This library is used for data manipulation.
+Streamlit: This library is used to create the web application.
+Pandas: This library is used for data manipulation.
 boto3: This is the AWS SDK for Python, used to interact with AWS services.
-Functions
+
+### Functions
 identify_pii(text)
 This function takes a string of text as input and uses the AWS Comprehend service to identify PII entities in the text. It returns a list of dictionaries, where each dictionary contains the type and text of an identified PII entity.
 
